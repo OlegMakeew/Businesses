@@ -65,8 +65,9 @@
             span {
                 position: relative;
                 display: inline-block;
+                margin-bottom: vh(1);
                 width: vw(22);
-                height: vw(2);
+                height: vw(2.5);
                 border-radius: vw(3);
                 background-color: white;
                 &::before, &::after {
