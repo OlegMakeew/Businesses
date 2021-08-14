@@ -1,4 +1,4 @@
-@mixin font($size, $weigth, $height) {
+@mixin font($weigth, $size, $height) {
 	font-family: 'SF Pro Display';
 	font-style: normal;
 	font-weight: $weigth;
