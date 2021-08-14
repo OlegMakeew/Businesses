@@ -1,5 +1,5 @@
 .header {
-    padding: vh(30) 0;
+    padding: vw(30) 0;
     position: absolute;
     top: 0;
     left: 0;
@@ -43,7 +43,7 @@
             color: rgba(255, 255, 255, 0.6);
             background-color: transparent;
             border: none;
-            ::placeholder {
+            &::placeholder {
                 @include font(700, vw(13), vw(25));
             }
         }

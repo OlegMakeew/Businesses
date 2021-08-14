@@ -1,6 +1,69 @@
 .hero {
     background: url("../img/herobg.png") no-repeat;
     height: 100vh;
-
-
+    color: $text-white;
+    text-align: center;
+    padding-top: vw(190);
+    .heading {
+        position: relative;
+    }
+    &__title {
+        @include font(400, vw(30), vw(50));
+        position: relative;
+        z-index: 1;
+    }
+    &__bg-text {
+        @include font(800, vw(90), vw(160));
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        color: $herobg-text;
+        opacity: 0.2;
+        z-index: -1;
+    }
+    &__form {
+        margin-top: vw(100);
+        &-place, &-city {
+            width: vw(445);
+            height: vw(50);
+            border-radius: vw(30);
+            margin-right: vw(30);
+            background-color: $color-GrayBlue10;
+            border: none;
+            color: white;
+            &::placeholder {
+                color: white;
+            }
+        }
+        &-city {
+            width: vw(255);
+        }
+        &-button {
+            @include font(800, vw(12), vw(20));
+            color: $text-white;
+            width: vw(160);
+            height: vw(50);
+            background: $orabge-bg;
+            border: none;
+            border-radius: vw(30);
+        }
+    }
+    &__list {
+        @include flex();
+        margin-top: vw(80);
+        &-item {
+            @include flex();
+            @include font(700, vw(12), vw(20));
+            margin-right: vw(35);
+            &:last-child {
+                margin-right: 0;
+            }
+        }
+        &-link {
+            color: $text-white;
+            text-decoration: none;
+            margin-left: vw(20);
+        }
+    }
 }
