@@ -1,0 +1,16 @@
+//helpers
+@import './helpers/fonts';
+@import './helpers/functions';
+@import './helpers/mixins';
+@import './helpers/_variables';
+
+//components
+@import './components/header';
+
+//
+@import './sections/hero';
+
+body, h3, ul, div, span {
+    padding: 0;
+    margin: 0;
+}
