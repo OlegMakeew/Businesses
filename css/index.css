@@ -191,8 +191,9 @@
 .header__categories .burger span {
   position: relative;
   display: inline-block;
+  margin-bottom: 0.17544vh;
   width: 1.375vw;
-  height: 0.125vw;
+  height: 0.15625vw;
   border-radius: 0.1875vw;
   background-color: white;
 }
