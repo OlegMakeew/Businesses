@@ -1,12 +1,9 @@
 .hero {
-    background: url("../img/herobg.png") no-repeat;
-    height: 100vh;
+    background: url("../img/herobg.png") no-repeat center;
+	background-size: cover;
     color: $text-white;
     text-align: center;
-    padding-top: vw(190);
-    .heading {
-        position: relative;
-    }
+    padding: vw(190) 0 vw(90);
     &__title {
         @include font(400, vw(30), vw(50));
         position: relative;
@@ -24,6 +21,7 @@
     }
     &__form {
         margin-top: vw(100);
+        @include flex();
         &-place, &-city {
             width: vw(445);
             height: vw(50);
@@ -34,17 +32,18 @@
             color: white;
             &::placeholder {
                 color: white;
+                @include font(700, vw(12), vw(20));
             }
         }
         &-city {
             width: vw(255);
         }
         &-button {
-            @include font(800, vw(12), vw(20));
+            @include font(700, vw(12), vw(20));
             color: $text-white;
             width: vw(160);
             height: vw(50);
-            background: $orabge-bg;
+            background: $orange-bg;
             border: none;
             border-radius: vw(30);
         }
@@ -54,16 +53,193 @@
         margin-top: vw(80);
         &-item {
             @include flex();
-            @include font(700, vw(12), vw(20));
             margin-right: vw(35);
             &:last-child {
                 margin-right: 0;
             }
         }
         &-link {
+            @include font(700, vw(12), vw(20));
             color: $text-white;
             text-decoration: none;
             margin-left: vw(20);
+        }
+    }
+}
+
+@include Desctop {
+    .hero {
+        padding: vdes(190) 0 vdes(90);
+        &__title {
+            @include font(400, vdes(35), vdes(50));
+        }
+        &__bg-text {
+            @include font(800, vdes(95), vdes(160));
+        }
+        &__form {
+            margin-top: vdes(100);
+            &-place, &-city {
+                width: vdes(445);
+                height: vdes(50);
+                border-radius: vdes(30);
+                margin-right: vdes(30);
+                &::placeholder {
+                    @include font(700, vdes(17), vdes(20));
+                }
+            }
+            &-city {
+                width: vdes(255);
+            }
+            &-button {
+                @include font(700, vdes(17), vdes(20));
+                width: vdes(160);
+                height: vdes(50);
+                border-radius: vdes(30);
+            }
+        }
+        &__list {
+            margin-top: vdes(80);
+            &-item {
+                margin-right: vdes(35);
+            }
+            &-link {
+                @include font(700, vdes(17), vdes(20));
+                margin-left: vdes(20);
+            }
+        }
+    }
+}
+@include Laptop {
+    .hero {
+        padding: vlap(190) 0 vlap(90);
+        &__title {
+            @include font(400, vlap(35), vlap(50));
+        }
+        &__bg-text {
+            @include font(800, vlap(80), vlap(160));
+        }
+        &__form {
+            margin-top: vlap(100);
+            &-place, &-city {
+                width: vlap(445);
+                height: vlap(50);
+                border-radius: vlap(30);
+                margin-right: vlap(30);
+                &::placeholder {
+                    @include font(700, vlap(17), vlap(20));
+                }
+            }
+            &-city {
+                width: vlap(255);
+            }
+            &-button {
+                @include font(700, vlap(17), vlap(20));
+                width: vlap(160);
+                height: vlap(50);
+                border-radius: vlap(30);
+            }
+        }
+        &__list {
+            margin-top: vlap(80);
+            &-item {
+                margin-right: vlap(35);
+            }
+            &-link {
+                @include font(700, vlap(17), vlap(20));
+                margin-left: vlap(20);
+            }
+        }
+    }
+}
+@include Tablet {
+    .hero {
+        padding: vtab(190) 0 vtab(90);
+        &__title {
+            @include font(400, vtab(30), vtab(50));
+        }
+        &__bg-text {
+            @include font(800, vtab(55), vtab(70));
+        }
+        &__form {
+            margin-top: vtab(100);
+            flex-wrap: wrap;
+            &-place, &-city {
+                width: vtab(445);
+                height: vtab(50);
+                border-radius: vtab(30);
+                margin-right: vtab(30);
+                &::placeholder {
+                    @include font(700, vtab(17), vtab(20));
+                }
+            }
+            &-city {
+                margin-top: vtab(25);
+                width: vtab(255);
+            }
+            &-button {
+                margin-top: vtab(25);
+                @include font(700, vtab(17), vtab(20));
+                width: vtab(160);
+                height: vtab(50);
+                border-radius: vtab(30);
+            }
+        }
+        &__list {
+            margin-top: vtab(80);
+            &-item {
+                margin-right: vtab(35);
+            }
+            &-link {
+                @include font(700, vtab(17), vtab(20));
+                margin-left: vtab(20);
+            }
+        }
+    }
+}
+@include Phone {
+    .hero {
+        padding: vmin(190) 0 vmin(90);
+        &__title {
+            @include font(400, vmin(30), vmin(50));
+        }
+        &__bg-text {
+            @include font(800, vmin(55), vmin(70));
+        }
+        &__form {
+            margin-top: vmin(100);
+            flex-wrap: wrap;
+            &-place, &-city {
+                width: vmin(400);
+                height: vmin(50);
+                border-radius: vmin(30);
+                margin-right: 0;
+                &::placeholder {
+                    @include font(700, vmin(17), vmin(20));
+                }
+            }
+            &-city {
+                margin-top: vmin(25);
+                width: vmin(230);
+                margin-right: vmin(30);
+            }
+            &-button {
+                margin-top: vmin(25);
+                @include font(700, vmin(17), vmin(20));
+                width: vmin(140);
+                height: vmin(50);
+                border-radius: vmin(30);
+            }
+        }
+        &__list {
+            flex-wrap: wrap;
+            margin-top: vmin(80);
+            &-item {
+                margin:0 vmin(35) vmin(15);
+            }
+            &-link {
+                @include font(700, vmin(17), vmin(20));
+                margin-left: vmin(20);
+            }
         }
     }
 }
