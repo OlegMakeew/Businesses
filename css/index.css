@@ -1086,8 +1086,161 @@
   }
 }
 
-body, h3, ul, div, span {
+.reviews {
+  height: 100vh;
+}
+
+.reviews__content {
+  text-align: center;
+  padding-top: 4.6875vw;
+}
+
+.reviews .profile {
+  width: 25%;
+  background: white;
+  border-radius: 0.625vw;
+  -webkit-box-shadow: 0px 2px 5px rgba(54, 61, 77, 0.05);
+          box-shadow: 0px 2px 5px rgba(54, 61, 77, 0.05);
+}
+
+.reviews .profile__container {
+  margin-top: 5.9375vw;
+}
+
+.reviews .profile__header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-bottom: 0.0625vw #F7F8FA solid;
+  padding: 1.25vw 0;
+}
+
+.reviews .profile__header-info {
+  text-align: left;
+}
+
+.reviews .profile__header-name {
+  font-family: 'SF Pro Display';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 0.75vw;
+  line-height: 1.25vw;
+  color: #4D5E80;
+}
+
+.reviews .profile__header-data {
+  font-family: 'SF Pro Display';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 0.625vw;
+  line-height: 1.25vw;
+  color: #7D8FB3;
+}
+
+.reviews .profile__info {
+  padding: 0 1.875vw 0 2.1875vw;
+}
+
+.reviews .profile__rating {
+  text-align: left;
+  padding: 1.25vw 0 1.5625vw;
+}
+
+.reviews .profile__rating span {
+  margin-right: 0.625vw;
+}
+
+.reviews .profile__rating span:last-child {
+  margin-right: 0;
+}
+
+.reviews .profile__rating-name {
+  font-family: 'SF Pro Display';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 0.75vw;
+  line-height: 1.25vw;
+  color: #4D5E80;
+}
+
+.reviews .profile__rating-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: none;
+      -ms-flex-pack: none;
+          justify-content: none;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-left: 0.3125vw;
+}
+
+.reviews .profile__rating-review {
+  font-family: 'SF Pro Display';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 0.625vw;
+  line-height: 1.25vw;
+  color: #4D5E80;
+}
+
+.reviews .profile__rating-coment {
+  font-family: 'SF Pro Display';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 0.625vw;
+  line-height: 1.25vw;
+  color: #ADB8CC;
+}
+
+body {
+  background: #E4E7F0;
+}
+
+body, h3, h6, ul, div, span {
   padding: 0;
   margin: 0;
+}
+
+.container {
+  width: 69.375vw;
+  margin-left: 5vw;
+  padding-right: 3.4375vw;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-right: 0.125vw #EDEFF2 solid;
+}
+
+.title {
+  font-family: 'SF Pro Display';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1.875vw;
+  line-height: 3.75vw;
+  position: relative;
+  z-index: 1;
+  color: #4D5E80;
+}
+
+.bg-text {
+  font-family: 'SF Pro Display';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 5.625vw;
+  line-height: 10vw;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  color: #002881;
+  opacity: 0.03;
+  z-index: -1;
 }
 /*# sourceMappingURL=index.css.map */
