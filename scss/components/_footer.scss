@@ -1,0 +1,106 @@
+.footer {
+    &__container {
+        width: vw(1247);
+        padding:0 vw(55) vw(67) vw(100);
+        box-sizing: border-box;
+        position: relative;
+        border: vw(2) $border-color solid;
+    }
+    &__content {
+        display: flex;
+        padding-top: vw(55);
+    }
+    &__list {
+        &-item {
+            margin: 0 vw(100) vw(15) 0;
+        }
+        &-link {
+            @include font(700, vw(12), vw(20));
+            text-decoration: none;
+            color: $color-GrayBlue60;
+        }
+    }
+    &__form {
+        margin-right: vw(125);
+        input {
+            background: $body-bg;
+            border: 2px solid #EDEFF2;
+            border-radius: 30px;
+            width: vw(160);
+            height: vw(50);
+            &::placeholder {
+                @include font(700, vw(12), vw(20));
+                color: $color-GrayBlue60;
+            }
+        }
+        &-item {
+            margin-bottom: vw(20);
+            &:last-child {
+                margin-bottom: 0;
+            }
+        }
+    }
+    &__social {
+        &-info {
+            @include font(700, vw(12), vw(20));
+            color: $color-GrayBlue60;
+            margin-bottom: vw(35);
+        }
+        &-networks {
+            img {
+                width: vw(20);
+                height: vw(20);
+                margin-right: vw(20);
+            }
+        }
+    }
+    &__button {
+        position: absolute;
+        bottom: 15%;
+        right: 4%;
+        &-chat {
+            background: $orange-bg;
+            box-shadow: 0px 10px 30px rgba(255, 102, 51, 0.15);
+        }
+        &-top {
+            box-shadow: 0px 10px 30px rgba(61, 66, 77, 0.03);
+        }
+        button {
+            width: vw(60);
+            height: vw(60);
+            border-radius: 50%;
+            text-align: center;
+            border: none;
+            margin-right: vw(20);
+            &:last-child {
+                margin-right: 0;
+            }
+        }
+    }
+    &__policy {
+        @include flex($justify: space-between);
+        width: vw(1247);
+        padding:vw(35) vw(55) vw(35) vw(100);
+        box-sizing: border-box;
+        border-right: vw(2) $border-color solid;
+        &-title {
+            @include font(700, vw(13), vw(30));
+            color: $color-GrayBlue60;
+        }
+        &-list {
+            list-style-type: none;
+            @include flex();
+            li {
+            margin-right: vw(30);
+            &:last-child {
+                margin-right: 0;
+            }
+                a {
+                    text-decoration: none;
+                    @include font(700, vw(13), vw(30));
+                    color: $color-GrayBlue60;
+                }
+            }
+        }
+    }
+}
