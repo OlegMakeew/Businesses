@@ -1,0 +1,61 @@
+.reviews {
+    height: 100vh;
+    &__content {
+        text-align: center;
+        padding-top: vw(75);
+    }
+    .profile {
+        width: 25%;
+        background: white;
+        border-radius: vw(10);
+        box-shadow: 0px 2px 5px rgba(54, 61, 77, 0.05);
+        &__container {
+            margin-top: vw(95);
+        }
+        &__header {
+            @include flex($justify: space-around);
+            border-bottom: vw(1) #F7F8FA solid;
+            padding: vw(20) 0;
+            &-info {
+                text-align: left;
+            }
+            &-name {
+                @include font(700, vw(12), vw(20));
+                color: #4D5E80;
+            }
+            &-data {
+                @include font(700, vw(10), vw(20));
+                color: #7D8FB3;
+            }
+        }
+        &__info {
+            padding: 0 vw(30) 0 vw(35);
+        }
+        &__rating {
+            text-align: left;
+            padding: vw(20) 0 vw(25);
+            span {
+                margin-right: vw(10);
+                &:last-child {
+                    margin-right: 0;
+                }
+            }
+            &-name {
+                @include font(700, vw(12), vw(20));
+                color: #4D5E80;
+            }
+            &-content {
+                @include flex($justify: none);
+                padding-left: vw(5);
+            }
+            &-review {
+                @include font(700, vw(10), vw(20));
+                color: #4D5E80;
+            }
+            &-coment {
+                @include font(700, vw(10), vw(20));
+                color: #ADB8CC;
+            }
+        }
+    }
+}
