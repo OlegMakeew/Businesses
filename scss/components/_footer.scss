@@ -8,11 +8,12 @@
     }
     &__content {
         display: flex;
+        justify-content: space-between;
         padding-top: vw(55);
     }
     &__list {
         &-item {
-            margin: 0 vw(100) vw(15) 0;
+            margin-bottom: vw(15);
         }
         &-link {
             @include font(700, vw(12), vw(20));
@@ -21,7 +22,6 @@
         }
     }
     &__form {
-        margin-right: vw(125);
         input {
             background: $body-bg;
             border: 2px solid #EDEFF2;
@@ -108,7 +108,7 @@
 @include Desctop {
     .footer {
         &__container {
-            width: vdes(1247);
+            width: 80%;
             padding:0 vdes(55) vdes(67) vdes(100);
             border: vdes(2) $border-color solid;
         }
@@ -117,14 +117,13 @@
         }
         &__list {
             &-item {
-                margin: 0 vdes(80) vdes(15) 0;
+                margin-bottom: vdes(15);
             }
             &-link {
                 @include font(700, vdes(17), vdes(20));
             }
         }
         &__form {
-            margin-right: vdes(80);
             input {
                 width: vdes(160);
                 height: vdes(50);
@@ -161,7 +160,7 @@
             }
         }
         &__policy {
-            width: vdes(1247);
+            width: 80%;
             padding:vdes(35) vdes(55) vdes(35) vdes(100);
             border-right: vdes(2) $border-color solid;
             &-title {
@@ -181,7 +180,7 @@
 @include Laptop {
     .footer {
         &__container {
-            width: vlap(1247);
+            width: 100%;
             padding:0 vlap(55) vlap(67) vlap(100);
             border: vlap(2) $border-color solid;
         }
@@ -190,14 +189,13 @@
         }
         &__list {
             &-item {
-                margin: 0 vlap(80) vlap(15) 0;
+                margin-bottom: vlap(15);
             }
             &-link {
                 @include font(700, vlap(17), vlap(20));
             }
         }
         &__form {
-            margin-right: vlap(80);
             input {
                 width: vlap(160);
                 height: vlap(50);
@@ -234,7 +232,7 @@
             }
         }
         &__policy {
-            width: vlap(1247);
+            width: 100%;
             padding:vlap(35) vlap(55) vlap(35) vlap(100);
             border-right: vlap(2) $border-color solid;
             &-title {
@@ -279,7 +277,7 @@
             }
         }
         &__form {
-            margin-top: vtab(50); 
+            margin-top: 0; 
             input {
                 &::placeholder {
                     @include font(700, vtab(17), vtab(20));
@@ -300,8 +298,8 @@
             }
         }
         &__button {
-            bottom: 25%;
-            right: 45%;
+            bottom: 15%;
+            right: 30%;
         }
     }
 }
@@ -324,7 +322,7 @@
             }
         }
         &__form {
-            margin-right: vmin(80);
+            margin:vmin(35) vmin(80) 0 0;
             input {
                 width: vmin(160);
                 height: vmin(50);

@@ -600,11 +600,14 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   padding-top: 3.4375vw;
 }
 
 .footer__list-item {
-  margin: 0 6.25vw 0.9375vw 0;
+  margin-bottom: 0.9375vw;
 }
 
 .footer__list-link {
@@ -615,10 +618,6 @@
   line-height: 1.25vw;
   text-decoration: none;
   color: #6B7A99;
-}
-
-.footer__form {
-  margin-right: 7.8125vw;
 }
 
 .footer__form input {
@@ -778,7 +777,7 @@
 
 @media screen and (max-width: 1200px) {
   .footer__container {
-    width: 103.91667vmin;
+    width: 80%;
     padding: 0 4.58333vmin 5.58333vmin 8.33333vmin;
     border: 0.16667vmin #EDEFF2 solid;
   }
@@ -786,7 +785,7 @@
     padding-top: 4.58333vmin;
   }
   .footer__list-item {
-    margin: 0 6.66667vmin 1.25vmin 0;
+    margin-bottom: 1.25vmin;
   }
   .footer__list-link {
     font-family: 'SF Pro Display';
@@ -794,9 +793,6 @@
     font-weight: 700;
     font-size: 1.41667vmin;
     line-height: 1.66667vmin;
-  }
-  .footer__form {
-    margin-right: 6.66667vmin;
   }
   .footer__form input {
     width: 13.33333vmin;
@@ -856,7 +852,7 @@
     height: 1.66667vmin;
   }
   .footer__policy {
-    width: 103.91667vmin;
+    width: 80%;
     padding: 2.91667vmin 4.58333vmin 2.91667vmin 8.33333vmin;
     border-right: 0.16667vmin #EDEFF2 solid;
   }
@@ -881,7 +877,7 @@
 
 @media screen and (max-width: 992px) {
   .footer__container {
-    width: 125.70565vmin;
+    width: 100%;
     padding: 0 5.54435vmin 6.75403vmin 10.08065vmin;
     border: 0.20161vmin #EDEFF2 solid;
   }
@@ -889,7 +885,7 @@
     padding-top: 5.54435vmin;
   }
   .footer__list-item {
-    margin: 0 8.06452vmin 1.5121vmin 0;
+    margin-bottom: 1.5121vmin;
   }
   .footer__list-link {
     font-family: 'SF Pro Display';
@@ -897,9 +893,6 @@
     font-weight: 700;
     font-size: 1.71371vmin;
     line-height: 2.01613vmin;
-  }
-  .footer__form {
-    margin-right: 8.06452vmin;
   }
   .footer__form input {
     width: 16.12903vmin;
@@ -959,7 +952,7 @@
     height: 2.01613vmin;
   }
   .footer__policy {
-    width: 125.70565vmin;
+    width: 100%;
     padding: 3.52823vmin 5.54435vmin 3.52823vmin 10.08065vmin;
     border-right: 0.20161vmin #EDEFF2 solid;
   }
@@ -1018,7 +1011,7 @@
     line-height: 3.90625vmin;
   }
   .footer__form {
-    margin-top: 6.51042vmin;
+    margin-top: 0;
   }
   .footer__form input::-webkit-input-placeholder {
     font-family: 'SF Pro Display';
@@ -1064,8 +1057,8 @@
     margin-right: 2.01613vmin;
   }
   .footer__button {
-    bottom: 25%;
-    right: 45%;
+    bottom: 15%;
+    right: 30%;
   }
 }
 
@@ -1091,7 +1084,7 @@
     line-height: 4.16667vmin;
   }
   .footer__form {
-    margin-right: 16.66667vmin;
+    margin: 7.29167vmin 16.66667vmin 0 0;
   }
   .footer__form input {
     width: 33.33333vmin;
