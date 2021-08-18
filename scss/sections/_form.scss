@@ -1,0 +1,55 @@
+.form {
+    padding-bottom: vw(30);
+    &__content {
+        background: $bg-white;
+        box-shadow: 0 vw(2) vw(5) rgba(54, 61, 77, 0.03);
+        border-radius: vw(10);
+        padding: vw(60);
+        @include flex($justify: left);
+    }
+    &__button {
+        &-next {
+            width: vw(125);
+            height: vw(50);
+            background-color: $orange-bg;
+            border-radius: vw(30);
+            border: none;
+            color: $text-white;
+            @include font(700, vw(12), vw(20));
+        }
+        &-close {
+            height: vw(25);
+            border: none;
+            background-color: $bg-white;
+        }
+    }
+    &__info {
+        margin-left: vw(80);
+        &-text {
+            display: flex;
+            justify-content: space-between
+        }
+        &-title {
+            @include font(700, vw(16), vw(30));
+            color: $color-GrayBlue50;
+        }
+        &-description {
+            @include font(600, vw(13), vw(25));
+            color: $color-GrayBlue70;
+            margin: vw(20) 0 vw(30);
+        }
+        &-form {
+            input {
+                width: vw(250);
+                height: vw(50);
+                border: vw(2) solid $border-color;
+                border-radius: vw(30);
+                margin-right: vw(20);
+                &::placeholder {
+                    @include font(700, vw(12), vw(20));
+                    color: $color-GrayBlue70;
+                }
+            }
+        }
+    }
+}

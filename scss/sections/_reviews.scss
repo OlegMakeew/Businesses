@@ -5,9 +5,9 @@
         padding-top: vw(75);
     }
     .profile {
-        width: 25%;
         background: white;
         border-radius: vw(10);
+        margin: vw(15);
         box-shadow: 0px 2px 5px rgba(54, 61, 77, 0.05);
         &__container {
             margin-top: vw(95);
@@ -29,11 +29,32 @@
             }
         }
         &__info {
-            padding: 0 vw(30) 0 vw(35);
+            position: relative;
+            &-more {
+                position: absolute;
+                bottom: vw(-15);
+                left: 50%;
+                transform: translate(-50%);
+                width: vw(125); 
+                padding: vw(5);
+                @include font(600, vw(10), vw(20));
+                text-decoration: none;
+                color: $color-GrayBlue70;
+                background: #FFFFFF;
+                box-shadow: 0 vw(2)  vw(10) rgba(54, 61, 77, 0.05);
+                border-radius: vw(30);
+            }
+            &-like {
+                @include flex();
+                width: vw(70);
+                height: vw(30);
+                background-color: $color-GrayBlue10;
+                border-radius: vw(5);
+            }
         }
         &__rating {
             text-align: left;
-            padding: vw(20) 0 vw(25);
+            padding: vw(20) vw(26) vw(25);
             span {
                 margin-right: vw(10);
                 &:last-child {
@@ -56,6 +77,13 @@
                 @include font(700, vw(10), vw(20));
                 color: #ADB8CC;
             }
+        }
+        &__comment {
+            padding: 0 vw(26) 0 vw(26);
+            text-align: left;
+            @include font(600, vw(12), vw(20));
+            color: $color-GrayBlue70;
+            padding-bottom: vw(10);
         }
     }
 }

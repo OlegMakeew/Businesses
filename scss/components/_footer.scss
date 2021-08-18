@@ -1,8 +1,8 @@
 .footer {
     &__container {
-        width: vw(1247);
-        padding:0 vw(55) vw(67) vw(100);
+        width: vw(1190);
         box-sizing: border-box;
+        padding:0 vw(55) vw(67) vw(100);
         position: relative;
         border: vw(2) $border-color solid;
     }
@@ -79,7 +79,7 @@
     }
     &__policy {
         @include flex($justify: space-between);
-        width: vw(1247);
+        width: vw(1190);
         padding:vw(35) vw(55) vw(35) vw(100);
         box-sizing: border-box;
         border-right: vw(2) $border-color solid;
@@ -105,7 +105,7 @@
     }
 }
 
-@include Desctop {
+/*@include Desctop {
     .footer {
         &__container {
             width: 80%;
@@ -176,8 +176,8 @@
             }
         }
     }
-}
-@include Laptop {
+}*/
+/*@include Laptop {
     .footer {
         &__container {
             width: 100%;
@@ -248,8 +248,8 @@
             }
         }
     }
-}
-@include Tablet {
+/*}*/
+/*@include Tablet {
     .footer {
         &__container {
             width: 100%;
@@ -302,8 +302,8 @@
             right: 30%;
         }
     }
-}
-@include Phone {
+}*/
+/*@include Phone {
     .footer {
         &__container {
             padding:0 0 vmin(67) 0;
@@ -379,4 +379,4 @@
             }
         }
     }
-}
+}*/
