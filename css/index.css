@@ -588,10 +588,10 @@
 }
 
 .footer__container {
-  width: 77.9375vw;
-  padding: 0 3.4375vw 4.1875vw 6.25vw;
+  width: 74.375vw;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+  padding: 0 3.4375vw 4.1875vw 6.25vw;
   position: relative;
   border: 0.125vw #EDEFF2 solid;
 }
@@ -728,7 +728,7 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 77.9375vw;
+  width: 74.375vw;
   padding: 2.1875vw 3.4375vw 2.1875vw 6.25vw;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -775,407 +775,281 @@
   color: #6B7A99;
 }
 
-@media screen and (max-width: 1200px) {
-  .footer__container {
-    width: 80%;
-    padding: 0 4.58333vmin 5.58333vmin 8.33333vmin;
-    border: 0.16667vmin #EDEFF2 solid;
-  }
-  .footer__content {
-    padding-top: 4.58333vmin;
-  }
-  .footer__list-item {
-    margin-bottom: 1.25vmin;
-  }
-  .footer__list-link {
-    font-family: 'SF Pro Display';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 1.41667vmin;
-    line-height: 1.66667vmin;
-  }
-  .footer__form input {
-    width: 13.33333vmin;
-    height: 4.16667vmin;
-  }
-  .footer__form input::-webkit-input-placeholder {
-    font-family: 'SF Pro Display';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 1.41667vmin;
-    line-height: 1.66667vmin;
-  }
-  .footer__form input:-ms-input-placeholder {
-    font-family: 'SF Pro Display';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 1.41667vmin;
-    line-height: 1.66667vmin;
-  }
-  .footer__form input::-ms-input-placeholder {
-    font-family: 'SF Pro Display';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 1.41667vmin;
-    line-height: 1.66667vmin;
-  }
-  .footer__form input::placeholder {
-    font-family: 'SF Pro Display';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 1.41667vmin;
-    line-height: 1.66667vmin;
-  }
-  .footer__form-item {
-    margin-bottom: 1.66667vmin;
-  }
-  .footer__social-info {
-    font-family: 'SF Pro Display';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 1.41667vmin;
-    line-height: 1.66667vmin;
-    margin-bottom: 2.91667vmin;
-  }
-  .footer__social-networks img {
-    width: 1.66667vmin;
-    height: 1.66667vmin;
-    margin-right: 1.66667vmin;
-  }
-  .footer__button button {
-    width: 5vmin;
-    height: 5vmin;
-    margin-right: 1.66667vmin;
-  }
-  .footer__button button svg {
-    width: 1.66667vmin;
-    height: 1.66667vmin;
-  }
-  .footer__policy {
-    width: 80%;
-    padding: 2.91667vmin 4.58333vmin 2.91667vmin 8.33333vmin;
-    border-right: 0.16667vmin #EDEFF2 solid;
-  }
-  .footer__policy-title {
-    font-family: 'SF Pro Display';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 1.5vmin;
-    line-height: 2.5vmin;
-  }
-  .footer__policy-list li {
-    margin-right: 2.5vmin;
-  }
-  .footer__policy-list li a {
-    font-family: 'SF Pro Display';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 1.5vmin;
-    line-height: 2.5vmin;
-  }
-}
-
-@media screen and (max-width: 992px) {
-  .footer__container {
-    width: 100%;
-    padding: 0 5.54435vmin 6.75403vmin 10.08065vmin;
-    border: 0.20161vmin #EDEFF2 solid;
-  }
-  .footer__content {
-    padding-top: 5.54435vmin;
-  }
-  .footer__list-item {
-    margin-bottom: 1.5121vmin;
-  }
-  .footer__list-link {
-    font-family: 'SF Pro Display';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 1.71371vmin;
-    line-height: 2.01613vmin;
-  }
-  .footer__form input {
-    width: 16.12903vmin;
-    height: 5.04032vmin;
-  }
-  .footer__form input::-webkit-input-placeholder {
-    font-family: 'SF Pro Display';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 1.71371vmin;
-    line-height: 2.01613vmin;
-  }
-  .footer__form input:-ms-input-placeholder {
-    font-family: 'SF Pro Display';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 1.71371vmin;
-    line-height: 2.01613vmin;
-  }
-  .footer__form input::-ms-input-placeholder {
-    font-family: 'SF Pro Display';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 1.71371vmin;
-    line-height: 2.01613vmin;
-  }
-  .footer__form input::placeholder {
-    font-family: 'SF Pro Display';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 1.71371vmin;
-    line-height: 2.01613vmin;
-  }
-  .footer__form-item {
-    margin-bottom: 2.01613vmin;
-  }
-  .footer__social-info {
-    font-family: 'SF Pro Display';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 1.71371vmin;
-    line-height: 2.01613vmin;
-    margin-bottom: 3.52823vmin;
-  }
-  .footer__social-networks img {
-    width: 2.01613vmin;
-    height: 2.01613vmin;
-    margin-right: 2.01613vmin;
-  }
-  .footer__button button {
-    width: 6.04839vmin;
-    height: 6.04839vmin;
-    margin-right: 2.01613vmin;
-  }
-  .footer__button button svg {
-    width: 2.01613vmin;
-    height: 2.01613vmin;
-  }
-  .footer__policy {
-    width: 100%;
-    padding: 3.52823vmin 5.54435vmin 3.52823vmin 10.08065vmin;
-    border-right: 0.20161vmin #EDEFF2 solid;
-  }
-  .footer__policy-title {
-    font-family: 'SF Pro Display';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 1.81452vmin;
-    line-height: 3.02419vmin;
-  }
-  .footer__policy-list li {
-    margin-right: 3.02419vmin;
-  }
-  .footer__policy-list li a {
-    font-family: 'SF Pro Display';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 1.81452vmin;
-    line-height: 3.02419vmin;
-  }
-}
-
-@media screen and (max-width: 768px) {
-  .footer__container {
-    width: 100%;
-  }
-  .footer__list-link {
-    font-family: 'SF Pro Display';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 2.21354vmin;
-    line-height: 2.60417vmin;
-  }
-  .footer__content {
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
+/*@include Desctop {
+    .footer {
+        &__container {
+            width: 80%;
+            padding:0 vdes(55) vdes(67) vdes(100);
+            border: vdes(2) $border-color solid;
+        }
+        &__content {
+            padding-top: vdes(55);
+        }
+        &__list {
+            &-item {
+                margin-bottom: vdes(15);
+            }
+            &-link {
+                @include font(700, vdes(17), vdes(20));
+            }
+        }
+        &__form {
+            input {
+                width: vdes(160);
+                height: vdes(50);
+                &::placeholder {
+                    @include font(700, vdes(17), vdes(20));
+                }
+            }
+            &-item {
+                margin-bottom: vdes(20);
+            }
+        }
+        &__social {
+            &-info {
+                @include font(700, vdes(17), vdes(20));
+                margin-bottom: vdes(35);
+            }
+            &-networks {
+                img {
+                    width: vdes(20);
+                    height: vdes(20);
+                    margin-right: vdes(20);
+                }
+            }
+        }
+        &__button {
+            button {
+                width: vdes(60);
+                height: vdes(60);
+                margin-right: vdes(20);
+                svg {
+                    width: vdes(20);
+                    height: vdes(20);
+                }
+            }
+        }
+        &__policy {
+            width: 80%;
+            padding:vdes(35) vdes(55) vdes(35) vdes(100);
+            border-right: vdes(2) $border-color solid;
+            &-title {
+                @include font(700, vdes(18), vdes(30));
+            }
+            &-list {
+                li {
+                    margin-right: vdes(30);
+                    a {
+                        @include font(700, vdes(18), vdes(30));
+                    }
+                }
+            }
+        }
+    }
+}*/
+/*@include Laptop {
+    .footer {
+        &__container {
+            width: 100%;
+            padding:0 vlap(55) vlap(67) vlap(100);
+            border: vlap(2) $border-color solid;
+        }
+        &__content {
+            padding-top: vlap(55);
+        }
+        &__list {
+            &-item {
+                margin-bottom: vlap(15);
+            }
+            &-link {
+                @include font(700, vlap(17), vlap(20));
+            }
+        }
+        &__form {
+            input {
+                width: vlap(160);
+                height: vlap(50);
+                &::placeholder {
+                    @include font(700, vlap(17), vlap(20));
+                }
+            }
+            &-item {
+                margin-bottom: vlap(20);
+            }
+        }
+        &__social {
+            &-info {
+                @include font(700, vlap(17), vlap(20));
+                margin-bottom: vlap(35);
+            }
+            &-networks {
+                img {
+                    width: vlap(20);
+                    height: vlap(20);
+                    margin-right: vlap(20);
+                }
+            }
+        }
+        &__button {
+            button {
+                width: vlap(60);
+                height: vlap(60);
+                margin-right: vlap(20);
+                svg {
+                    width: vlap(20);
+                    height: vlap(20);
+                }
+            }
+        }
+        &__policy {
+            width: 100%;
+            padding:vlap(35) vlap(55) vlap(35) vlap(100);
+            border-right: vlap(2) $border-color solid;
+            &-title {
+                @include font(700, vlap(18), vlap(30));
+            }
+            &-list {
+                li {
+                    margin-right: vlap(30);
+                    a {
+                        @include font(700, vlap(18), vlap(30));
+                    }
+                }
+            }
+        }
+    }
+/*}*/
+/*@include Tablet {
+    .footer {
+        &__container {
+            width: 100%;
+        }
+        &__list {
+            &-link {
+                @include font(700, vtab(17), vtab(20));
+            }
+        }
+        &__content {
+            flex-wrap: wrap;
             justify-content: space-between;
-  }
-  .footer__policy {
-    width: 100%;
-  }
-  .footer__policy-title {
-    font-family: 'SF Pro Display';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 2.34375vmin;
-    line-height: 3.90625vmin;
-  }
-  .footer__policy-list li a {
-    font-family: 'SF Pro Display';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 2.34375vmin;
-    line-height: 3.90625vmin;
-  }
-  .footer__form {
-    margin-top: 0;
-  }
-  .footer__form input::-webkit-input-placeholder {
-    font-family: 'SF Pro Display';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 2.21354vmin;
-    line-height: 2.60417vmin;
-  }
-  .footer__form input:-ms-input-placeholder {
-    font-family: 'SF Pro Display';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 2.21354vmin;
-    line-height: 2.60417vmin;
-  }
-  .footer__form input::-ms-input-placeholder {
-    font-family: 'SF Pro Display';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 2.21354vmin;
-    line-height: 2.60417vmin;
-  }
-  .footer__form input::placeholder {
-    font-family: 'SF Pro Display';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 2.21354vmin;
-    line-height: 2.60417vmin;
-  }
-  .footer__social {
-    margin-top: 6.51042vmin;
-  }
-  .footer__social-info {
-    font-family: 'SF Pro Display';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 2.21354vmin;
-    line-height: 2.60417vmin;
-  }
-  .footer__social-networks img {
-    width: 2.60417vmin;
-    height: 2.60417vmin;
-    margin-right: 2.01613vmin;
-  }
-  .footer__button {
-    bottom: 15%;
-    right: 30%;
-  }
-}
-
-@media screen and (max-width: 480px) {
-  .footer__container {
-    padding: 0 0 13.95833vmin 0;
-    border: 0.41667vmin #EDEFF2 solid;
-  }
-  .footer__content {
-    padding-top: 11.45833vmin;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
+        }
+        &__policy {
+            width: 100%;
+            &-title {
+                @include font(700, vtab(18), vtab(30));
+            }
+            &-list {
+                li {
+                    a {
+                        @include font(700, vtab(18), vtab(30));
+                    }
+                }
+            }
+        }
+        &__form {
+            margin-top: 0; 
+            input {
+                &::placeholder {
+                    @include font(700, vtab(17), vtab(20));
+                } 
+            }  
+        }
+        &__social {
+            margin-top: vtab(50);
+            &-info {
+                @include font(700, vtab(17), vtab(20));
+            }
+            &-networks {
+                img {
+                    width: vtab(20);
+                    height: vtab(20);
+                    margin-right: vlap(20);
+                }
+            }
+        }
+        &__button {
+            bottom: 15%;
+            right: 30%;
+        }
+    }
+}*/
+/*@include Phone {
+    .footer {
+        &__container {
+            padding:0 0 vmin(67) 0;
+            border: vmin(2) $border-color solid;
+        }
+        &__content {
+            padding-top: vmin(55);
             justify-content: center;
-  }
-  .footer__list-item {
-    margin: 0 8.33333vmin 3.125vmin 0;
-  }
-  .footer__list-link {
-    font-family: 'SF Pro Display';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 3.54167vmin;
-    line-height: 4.16667vmin;
-  }
-  .footer__form {
-    margin: 7.29167vmin 16.66667vmin 0 0;
-  }
-  .footer__form input {
-    width: 33.33333vmin;
-    height: 10.41667vmin;
-  }
-  .footer__form input::-webkit-input-placeholder {
-    font-family: 'SF Pro Display';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 3.54167vmin;
-    line-height: 4.16667vmin;
-  }
-  .footer__form input:-ms-input-placeholder {
-    font-family: 'SF Pro Display';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 3.54167vmin;
-    line-height: 4.16667vmin;
-  }
-  .footer__form input::-ms-input-placeholder {
-    font-family: 'SF Pro Display';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 3.54167vmin;
-    line-height: 4.16667vmin;
-  }
-  .footer__form input::placeholder {
-    font-family: 'SF Pro Display';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 3.54167vmin;
-    line-height: 4.16667vmin;
-  }
-  .footer__form-item {
-    margin-bottom: 4.16667vmin;
-  }
-  .footer__social-info {
-    font-family: 'SF Pro Display';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 3.54167vmin;
-    line-height: 4.16667vmin;
-    margin-bottom: 7.29167vmin;
-  }
-  .footer__social-networks img {
-    width: 4.16667vmin;
-    height: 4.16667vmin;
-    margin-right: 4.16667vmin;
-  }
-  .footer__button {
-    bottom: 5%;
-    right: 5%;
-  }
-  .footer__button button {
-    width: 12.5vmin;
-    height: 12.5vmin;
-    margin-right: 4.16667vmin;
-  }
-  .footer__button button svg {
-    width: 4.16667vmin;
-    height: 4.16667vmin;
-  }
-  .footer__policy {
-    padding: 7.29167vmin 0;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
+        }
+        &__list {
+            &-item {
+                margin: 0 vmin(40) vmin(15) 0;
+            }
+            &-link {
+                @include font(700, vmin(17), vmin(20));
+            }
+        }
+        &__form {
+            margin:vmin(35) vmin(80) 0 0;
+            input {
+                width: vmin(160);
+                height: vmin(50);
+                &::placeholder {
+                    @include font(700, vmin(17), vmin(20));
+                }
+            }
+            &-item {
+                margin-bottom: vmin(20);
+            }
+        }
+        &__social {
+            &-info {
+                @include font(700, vmin(17), vmin(20));
+                margin-bottom: vmin(35);
+            }
+            &-networks {
+                img {
+                    width: vmin(20);
+                    height: vmin(20);
+                    margin-right: vmin(20);
+                }
+            }
+        }
+        &__button {
+            bottom: 5%;
+            right: 5%;
+            button {
+                width: vmin(60);
+                height: vmin(60);
+                margin-right: vmin(20);
+                svg {
+                    width: vmin(20);
+                    height: vmin(20);
+                }
+            }
+        }
+        &__policy {
+            padding: vmin(35) 0;
+            flex-wrap: wrap;
             justify-content: center;
-    border-right: 0.41667vmin #EDEFF2 solid;
-  }
-  .footer__policy-title {
-    font-family: 'SF Pro Display';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 3.75vmin;
-    line-height: 6.25vmin;
-    padding-bottom: 4.16667vmin;
-  }
-  .footer__policy-list li {
-    margin-right: 6.25vmin;
-  }
-  .footer__policy-list li a {
-    font-family: 'SF Pro Display';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 3.75vmin;
-    line-height: 6.25vmin;
-  }
-}
-
+            border-right: vmin(2) $border-color solid;
+            &-title {
+                @include font(700, vmin(18), vmin(30));
+                padding-bottom: vmin(20);
+            }
+            &-list {
+                li {
+                    margin-right: vmin(30);
+                    a {
+                        @include font(700, vmin(18), vmin(30));
+                    }
+                }
+            }
+        }
+    }
+}*/
 .hero {
   background: url("../img/herobg.png") no-repeat center;
   background-size: cover;
@@ -1675,6 +1549,56 @@
   }
 }
 
+.about {
+  text-align: center;
+  padding-top: 4.6875vw;
+}
+
+.about .row {
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.about__item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 0.9375vw;
+  border: 0.125vw solid #EDEFF2;
+  border-radius: 0.9375vw;
+  height: 15.9375vw;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.about__item:hover {
+  background-color: #FFFFFF;
+}
+
+.about__item-img {
+  width: 5.625vw;
+  height: 5.625vw;
+}
+
+.about__item-text {
+  font-family: 'SF Pro Display';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 0.8125vw;
+  line-height: 1.5625vw;
+  color: #6B7A99;
+}
+
 .reviews {
   height: 100vh;
 }
@@ -1831,5 +1755,15 @@ body, h3, h6, h5, ul, div, span {
   color: #002881;
   opacity: 0.03;
   z-index: -1;
+}
+
+.row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.col-3 {
+  width: 25%;
 }
 /*# sourceMappingURL=index.css.map */
