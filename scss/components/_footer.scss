@@ -1,6 +1,6 @@
 .footer {
     &__container {
-        width: vw(1190);
+        width: vw(1247);
         box-sizing: border-box;
         padding:0 vw(55) vw(67) vw(100);
         position: relative;
@@ -79,7 +79,7 @@
     }
     &__policy {
         @include flex($justify: space-between);
-        width: vw(1190);
+        width: vw(1247);
         padding:vw(35) vw(55) vw(35) vw(100);
         box-sizing: border-box;
         border-right: vw(2) $border-color solid;
