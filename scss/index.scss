@@ -15,3 +15,68 @@ body, h3, ul, div, span {
     padding: 0;
     margin: 0;
 }
+.title {
+    @include font (vw(600), 30, vw(60));
+    text-align: center;
+    justify-content: space-around;
+    position: relative;
+    width: vw(437);
+    top:vw(50);
+    line-height: vw(60);
+    right: vw(50);
+    color:$about-title;
+}
+.bg-text{
+    @include font(vw(800), 90, vw(160));
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform:translate(-50%, -50%);
+    opacity: 0 .03;
+    color:$aboutbg-text;
+    text-align: center;
+}
+.row {
+    display:flex;
+    flex-wrap: wrap;
+}
+.col-3 {
+    width: 25%;
+}
+ .catalog-icon{
+     @include font(13, 500, vw(25));
+    width: vw(72);
+    top: vw(190);
+    font-style: normal;
+    line-height: vw(25);
+    text-align: center;
+ }
+ .about__icon-title {
+    width: vw(90);
+    height: vw(90);
+    left: vw(83);
+    top: vw(60);
+ }
+ .catalog-item{
+    margin-left: vw(163);
+    margin-top:vw(50);
+    margin-right:vw(50);
+ }
+ .catalog-item {
+    height: vw(255); 
+    left: 0;
+    right: 0;
+    top: 0;
+    border: vw(2) solid #EDEFF2;
+    border-radius: vw(15);
+ }
+ .catalog-icon{
+    font-family: SF Pro Display;
+    font-style: normal;
+    font-weight: bold;
+    font-size: vw(13);
+    line-height: vw(25);
+    text-align: center;
+    color: $icon-text;
+ }
+

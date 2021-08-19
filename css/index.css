@@ -1090,4 +1090,94 @@ body, h3, ul, div, span {
   padding: 0;
   margin: 0;
 }
+
+.title {
+  font-family: 'SF Pro Display';
+  font-style: normal;
+  font-weight: 37.5vw;
+  font-size: 30;
+  line-height: 3.75vw;
+  text-align: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  position: relative;
+  width: 27.3125vw;
+  top: 3.125vw;
+  line-height: 3.75vw;
+  right: 3.125vw;
+  color: #4D5E80;
+}
+
+.bg-text {
+  font-family: 'SF Pro Display';
+  font-style: normal;
+  font-weight: 50vw;
+  font-size: 90;
+  line-height: 10vw;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  opacity: 0 .03;
+  color: #002881;
+  text-align: center;
+}
+
+.row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.col-3 {
+  width: 25%;
+}
+
+.catalog-icon {
+  font-family: 'SF Pro Display';
+  font-style: normal;
+  font-weight: 13;
+  font-size: 500;
+  line-height: 1.5625vw;
+  width: 4.5vw;
+  top: 11.875vw;
+  font-style: normal;
+  line-height: 1.5625vw;
+  text-align: center;
+}
+
+.about__icon-title {
+  width: 5.625vw;
+  height: 5.625vw;
+  left: 5.1875vw;
+  top: 3.75vw;
+}
+
+.catalog-item {
+  margin-left: 10.1875vw;
+  margin-top: 3.125vw;
+  margin-right: 3.125vw;
+}
+
+.catalog-item {
+  height: 15.9375vw;
+  left: 0;
+  right: 0;
+  top: 0;
+  border: 0.125vw solid #EDEFF2;
+  border-radius: 0.9375vw;
+}
+
+.catalog-icon {
+  font-family: SF Pro Display;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 0.8125vw;
+  line-height: 1.5625vw;
+  text-align: center;
+  color: #6B7A99;
+}
 /*# sourceMappingURL=index.css.map */
