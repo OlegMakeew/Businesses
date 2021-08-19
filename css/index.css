@@ -775,281 +775,407 @@
   color: #6B7A99;
 }
 
-/*@include Desctop {
-    .footer {
-        &__container {
-            width: 80%;
-            padding:0 vdes(55) vdes(67) vdes(100);
-            border: vdes(2) $border-color solid;
-        }
-        &__content {
-            padding-top: vdes(55);
-        }
-        &__list {
-            &-item {
-                margin-bottom: vdes(15);
-            }
-            &-link {
-                @include font(700, vdes(17), vdes(20));
-            }
-        }
-        &__form {
-            input {
-                width: vdes(160);
-                height: vdes(50);
-                &::placeholder {
-                    @include font(700, vdes(17), vdes(20));
-                }
-            }
-            &-item {
-                margin-bottom: vdes(20);
-            }
-        }
-        &__social {
-            &-info {
-                @include font(700, vdes(17), vdes(20));
-                margin-bottom: vdes(35);
-            }
-            &-networks {
-                img {
-                    width: vdes(20);
-                    height: vdes(20);
-                    margin-right: vdes(20);
-                }
-            }
-        }
-        &__button {
-            button {
-                width: vdes(60);
-                height: vdes(60);
-                margin-right: vdes(20);
-                svg {
-                    width: vdes(20);
-                    height: vdes(20);
-                }
-            }
-        }
-        &__policy {
-            width: 80%;
-            padding:vdes(35) vdes(55) vdes(35) vdes(100);
-            border-right: vdes(2) $border-color solid;
-            &-title {
-                @include font(700, vdes(18), vdes(30));
-            }
-            &-list {
-                li {
-                    margin-right: vdes(30);
-                    a {
-                        @include font(700, vdes(18), vdes(30));
-                    }
-                }
-            }
-        }
-    }
-}*/
-/*@include Laptop {
-    .footer {
-        &__container {
-            width: 100%;
-            padding:0 vlap(55) vlap(67) vlap(100);
-            border: vlap(2) $border-color solid;
-        }
-        &__content {
-            padding-top: vlap(55);
-        }
-        &__list {
-            &-item {
-                margin-bottom: vlap(15);
-            }
-            &-link {
-                @include font(700, vlap(17), vlap(20));
-            }
-        }
-        &__form {
-            input {
-                width: vlap(160);
-                height: vlap(50);
-                &::placeholder {
-                    @include font(700, vlap(17), vlap(20));
-                }
-            }
-            &-item {
-                margin-bottom: vlap(20);
-            }
-        }
-        &__social {
-            &-info {
-                @include font(700, vlap(17), vlap(20));
-                margin-bottom: vlap(35);
-            }
-            &-networks {
-                img {
-                    width: vlap(20);
-                    height: vlap(20);
-                    margin-right: vlap(20);
-                }
-            }
-        }
-        &__button {
-            button {
-                width: vlap(60);
-                height: vlap(60);
-                margin-right: vlap(20);
-                svg {
-                    width: vlap(20);
-                    height: vlap(20);
-                }
-            }
-        }
-        &__policy {
-            width: 100%;
-            padding:vlap(35) vlap(55) vlap(35) vlap(100);
-            border-right: vlap(2) $border-color solid;
-            &-title {
-                @include font(700, vlap(18), vlap(30));
-            }
-            &-list {
-                li {
-                    margin-right: vlap(30);
-                    a {
-                        @include font(700, vlap(18), vlap(30));
-                    }
-                }
-            }
-        }
-    }
-/*}*/
-/*@include Tablet {
-    .footer {
-        &__container {
-            width: 100%;
-        }
-        &__list {
-            &-link {
-                @include font(700, vtab(17), vtab(20));
-            }
-        }
-        &__content {
-            flex-wrap: wrap;
+@media screen and (max-width: 1200px) {
+  .footer__container {
+    width: 80%;
+    padding: 0 4.58333vmin 5.58333vmin 8.33333vmin;
+    border: 0.16667vmin #EDEFF2 solid;
+  }
+  .footer__content {
+    padding-top: 4.58333vmin;
+  }
+  .footer__list-item {
+    margin-bottom: 1.25vmin;
+  }
+  .footer__list-link {
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.41667vmin;
+    line-height: 1.66667vmin;
+  }
+  .footer__form input {
+    width: 13.33333vmin;
+    height: 4.16667vmin;
+  }
+  .footer__form input::-webkit-input-placeholder {
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.41667vmin;
+    line-height: 1.66667vmin;
+  }
+  .footer__form input:-ms-input-placeholder {
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.41667vmin;
+    line-height: 1.66667vmin;
+  }
+  .footer__form input::-ms-input-placeholder {
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.41667vmin;
+    line-height: 1.66667vmin;
+  }
+  .footer__form input::placeholder {
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.41667vmin;
+    line-height: 1.66667vmin;
+  }
+  .footer__form-item {
+    margin-bottom: 1.66667vmin;
+  }
+  .footer__social-info {
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.41667vmin;
+    line-height: 1.66667vmin;
+    margin-bottom: 2.91667vmin;
+  }
+  .footer__social-networks img {
+    width: 1.66667vmin;
+    height: 1.66667vmin;
+    margin-right: 1.66667vmin;
+  }
+  .footer__button button {
+    width: 5vmin;
+    height: 5vmin;
+    margin-right: 1.66667vmin;
+  }
+  .footer__button button svg {
+    width: 1.66667vmin;
+    height: 1.66667vmin;
+  }
+  .footer__policy {
+    width: 80%;
+    padding: 2.91667vmin 4.58333vmin 2.91667vmin 8.33333vmin;
+    border-right: 0.16667vmin #EDEFF2 solid;
+  }
+  .footer__policy-title {
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.5vmin;
+    line-height: 2.5vmin;
+  }
+  .footer__policy-list li {
+    margin-right: 2.5vmin;
+  }
+  .footer__policy-list li a {
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.5vmin;
+    line-height: 2.5vmin;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .footer__container {
+    width: 100%;
+    padding: 0 5.54435vmin 6.75403vmin 10.08065vmin;
+    border: 0.20161vmin #EDEFF2 solid;
+  }
+  .footer__content {
+    padding-top: 5.54435vmin;
+  }
+  .footer__list-item {
+    margin-bottom: 1.5121vmin;
+  }
+  .footer__list-link {
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.71371vmin;
+    line-height: 2.01613vmin;
+  }
+  .footer__form input {
+    width: 16.12903vmin;
+    height: 5.04032vmin;
+  }
+  .footer__form input::-webkit-input-placeholder {
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.71371vmin;
+    line-height: 2.01613vmin;
+  }
+  .footer__form input:-ms-input-placeholder {
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.71371vmin;
+    line-height: 2.01613vmin;
+  }
+  .footer__form input::-ms-input-placeholder {
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.71371vmin;
+    line-height: 2.01613vmin;
+  }
+  .footer__form input::placeholder {
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.71371vmin;
+    line-height: 2.01613vmin;
+  }
+  .footer__form-item {
+    margin-bottom: 2.01613vmin;
+  }
+  .footer__social-info {
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.71371vmin;
+    line-height: 2.01613vmin;
+    margin-bottom: 3.52823vmin;
+  }
+  .footer__social-networks img {
+    width: 2.01613vmin;
+    height: 2.01613vmin;
+    margin-right: 2.01613vmin;
+  }
+  .footer__button button {
+    width: 6.04839vmin;
+    height: 6.04839vmin;
+    margin-right: 2.01613vmin;
+  }
+  .footer__button button svg {
+    width: 2.01613vmin;
+    height: 2.01613vmin;
+  }
+  .footer__policy {
+    width: 100%;
+    padding: 3.52823vmin 5.54435vmin 3.52823vmin 10.08065vmin;
+    border-right: 0.20161vmin #EDEFF2 solid;
+  }
+  .footer__policy-title {
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.81452vmin;
+    line-height: 3.02419vmin;
+  }
+  .footer__policy-list li {
+    margin-right: 3.02419vmin;
+  }
+  .footer__policy-list li a {
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.81452vmin;
+    line-height: 3.02419vmin;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .footer__container {
+    width: 100%;
+  }
+  .footer__list-link {
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 2.21354vmin;
+    line-height: 2.60417vmin;
+  }
+  .footer__content {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
             justify-content: space-between;
-        }
-        &__policy {
-            width: 100%;
-            &-title {
-                @include font(700, vtab(18), vtab(30));
-            }
-            &-list {
-                li {
-                    a {
-                        @include font(700, vtab(18), vtab(30));
-                    }
-                }
-            }
-        }
-        &__form {
-            margin-top: 0; 
-            input {
-                &::placeholder {
-                    @include font(700, vtab(17), vtab(20));
-                } 
-            }  
-        }
-        &__social {
-            margin-top: vtab(50);
-            &-info {
-                @include font(700, vtab(17), vtab(20));
-            }
-            &-networks {
-                img {
-                    width: vtab(20);
-                    height: vtab(20);
-                    margin-right: vlap(20);
-                }
-            }
-        }
-        &__button {
-            bottom: 15%;
-            right: 30%;
-        }
-    }
-}*/
-/*@include Phone {
-    .footer {
-        &__container {
-            padding:0 0 vmin(67) 0;
-            border: vmin(2) $border-color solid;
-        }
-        &__content {
-            padding-top: vmin(55);
+  }
+  .footer__policy {
+    width: 100%;
+  }
+  .footer__policy-title {
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 2.34375vmin;
+    line-height: 3.90625vmin;
+  }
+  .footer__policy-list li a {
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 2.34375vmin;
+    line-height: 3.90625vmin;
+  }
+  .footer__form {
+    margin-top: 0;
+  }
+  .footer__form input::-webkit-input-placeholder {
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 2.21354vmin;
+    line-height: 2.60417vmin;
+  }
+  .footer__form input:-ms-input-placeholder {
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 2.21354vmin;
+    line-height: 2.60417vmin;
+  }
+  .footer__form input::-ms-input-placeholder {
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 2.21354vmin;
+    line-height: 2.60417vmin;
+  }
+  .footer__form input::placeholder {
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 2.21354vmin;
+    line-height: 2.60417vmin;
+  }
+  .footer__social {
+    margin-top: 6.51042vmin;
+  }
+  .footer__social-info {
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 2.21354vmin;
+    line-height: 2.60417vmin;
+  }
+  .footer__social-networks img {
+    width: 2.60417vmin;
+    height: 2.60417vmin;
+    margin-right: 2.01613vmin;
+  }
+  .footer__button {
+    bottom: 15%;
+    right: 30%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .footer__container {
+    padding: 0 0 13.95833vmin 0;
+    border: 0.41667vmin #EDEFF2 solid;
+  }
+  .footer__content {
+    padding-top: 11.45833vmin;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
             justify-content: center;
-        }
-        &__list {
-            &-item {
-                margin: 0 vmin(40) vmin(15) 0;
-            }
-            &-link {
-                @include font(700, vmin(17), vmin(20));
-            }
-        }
-        &__form {
-            margin:vmin(35) vmin(80) 0 0;
-            input {
-                width: vmin(160);
-                height: vmin(50);
-                &::placeholder {
-                    @include font(700, vmin(17), vmin(20));
-                }
-            }
-            &-item {
-                margin-bottom: vmin(20);
-            }
-        }
-        &__social {
-            &-info {
-                @include font(700, vmin(17), vmin(20));
-                margin-bottom: vmin(35);
-            }
-            &-networks {
-                img {
-                    width: vmin(20);
-                    height: vmin(20);
-                    margin-right: vmin(20);
-                }
-            }
-        }
-        &__button {
-            bottom: 5%;
-            right: 5%;
-            button {
-                width: vmin(60);
-                height: vmin(60);
-                margin-right: vmin(20);
-                svg {
-                    width: vmin(20);
-                    height: vmin(20);
-                }
-            }
-        }
-        &__policy {
-            padding: vmin(35) 0;
-            flex-wrap: wrap;
+  }
+  .footer__list-item {
+    margin: 0 8.33333vmin 3.125vmin 0;
+  }
+  .footer__list-link {
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 3.54167vmin;
+    line-height: 4.16667vmin;
+  }
+  .footer__form {
+    margin: 7.29167vmin 16.66667vmin 0 0;
+  }
+  .footer__form input {
+    width: 33.33333vmin;
+    height: 10.41667vmin;
+  }
+  .footer__form input::-webkit-input-placeholder {
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 3.54167vmin;
+    line-height: 4.16667vmin;
+  }
+  .footer__form input:-ms-input-placeholder {
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 3.54167vmin;
+    line-height: 4.16667vmin;
+  }
+  .footer__form input::-ms-input-placeholder {
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 3.54167vmin;
+    line-height: 4.16667vmin;
+  }
+  .footer__form input::placeholder {
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 3.54167vmin;
+    line-height: 4.16667vmin;
+  }
+  .footer__form-item {
+    margin-bottom: 4.16667vmin;
+  }
+  .footer__social-info {
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 3.54167vmin;
+    line-height: 4.16667vmin;
+    margin-bottom: 7.29167vmin;
+  }
+  .footer__social-networks img {
+    width: 4.16667vmin;
+    height: 4.16667vmin;
+    margin-right: 4.16667vmin;
+  }
+  .footer__button {
+    bottom: 5%;
+    right: 5%;
+  }
+  .footer__button button {
+    width: 12.5vmin;
+    height: 12.5vmin;
+    margin-right: 4.16667vmin;
+  }
+  .footer__button button svg {
+    width: 4.16667vmin;
+    height: 4.16667vmin;
+  }
+  .footer__policy {
+    padding: 7.29167vmin 0;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
             justify-content: center;
-            border-right: vmin(2) $border-color solid;
-            &-title {
-                @include font(700, vmin(18), vmin(30));
-                padding-bottom: vmin(20);
-            }
-            &-list {
-                li {
-                    margin-right: vmin(30);
-                    a {
-                        @include font(700, vmin(18), vmin(30));
-                    }
-                }
-            }
-        }
-    }
-}*/
+    border-right: 0.41667vmin #EDEFF2 solid;
+  }
+  .footer__policy-title {
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 3.75vmin;
+    line-height: 6.25vmin;
+    padding-bottom: 4.16667vmin;
+  }
+  .footer__policy-list li {
+    margin-right: 6.25vmin;
+  }
+  .footer__policy-list li a {
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 3.75vmin;
+    line-height: 6.25vmin;
+  }
+}
+
 .hero {
   background: url("../img/herobg.png") no-repeat center;
   background-size: cover;
@@ -1551,12 +1677,10 @@
 
 .about {
   text-align: center;
-  padding-top: 4.6875vw;
 }
 
-.about .row {
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+.about__content {
+  padding-top: 4.6875vw;
 }
 
 .about__item {
@@ -1599,13 +1723,13 @@
   color: #6B7A99;
 }
 
-.reviews {
-  height: 100vh;
+.reviews img {
+  height: 100%;
 }
 
 .reviews__content {
   text-align: center;
-  padding-top: 4.6875vw;
+  padding: 4.6875vw 0 3.4375vw;
 }
 
 .reviews .profile {
@@ -1659,6 +1783,10 @@
   position: relative;
 }
 
+.reviews .profile__info-content {
+  position: relative;
+}
+
 .reviews .profile__info-more {
   position: absolute;
   bottom: -0.9375vw;
@@ -1681,6 +1809,9 @@
 }
 
 .reviews .profile__info-like {
+  position: absolute;
+  top: 0.9375vw;
+  left: 0.9375vw;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1694,6 +1825,16 @@
   height: 1.875vw;
   background-color: rgba(13, 17, 26, 0.5);
   border-radius: 0.3125vw;
+  font-family: 'SF Pro Display';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 0.625vw;
+  line-height: 1.25vw;
+  color: #FFFFFF;
+}
+
+.reviews .profile__info-like svg {
+  margin-right: 0.4375vw;
 }
 
 .reviews .profile__rating {
@@ -1722,13 +1863,12 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: none;
-      -ms-flex-pack: none;
-          justify-content: none;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  padding-left: 0.3125vw;
 }
 
 .reviews .profile__rating-review {
@@ -1750,7 +1890,7 @@
 }
 
 .reviews .profile__comment {
-  padding: 0 1.625vw 0 1.625vw;
+  padding: 0 1.625vw 1.5625vw 1.625vw;
   text-align: left;
   font-family: 'SF Pro Display';
   font-style: normal;
@@ -1758,11 +1898,6 @@
   font-size: 0.75vw;
   line-height: 1.25vw;
   color: #7D8FB3;
-  padding-bottom: 0.625vw;
-}
-
-.form {
-  padding-bottom: 1.875vw;
 }
 
 .form__content {
@@ -1771,6 +1906,7 @@
           box-shadow: 0 0.125vw 0.3125vw rgba(54, 61, 77, 0.03);
   border-radius: 0.625vw;
   padding: 3.75vw;
+  margin-bottom: 1.875vw;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1931,9 +2067,22 @@ img {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
 .col-3 {
   width: 25%;
+}
+
+.grid-container {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[2];
+      grid-template-columns: repeat(2, 1fr);
+}
+
+.col-md-2 {
+  grid-column: span 2;
 }
 /*# sourceMappingURL=index.css.map */
