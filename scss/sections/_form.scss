@@ -1,10 +1,10 @@
 .form {
-    padding-bottom: vw(30);
     &__content {
         background: $bg-white;
         box-shadow: 0 vw(2) vw(5) rgba(54, 61, 77, 0.03);
         border-radius: vw(10);
         padding: vw(60);
+        margin-bottom: vw(30);
         @include flex($justify: left);
     }
     &__button {

@@ -105,7 +105,7 @@
     }
 }
 
-/*@include Desctop {
+@include Desctop {
     .footer {
         &__container {
             width: 80%;
@@ -176,8 +176,8 @@
             }
         }
     }
-}*/
-/*@include Laptop {
+}
+@include Laptop {
     .footer {
         &__container {
             width: 100%;
@@ -248,8 +248,8 @@
             }
         }
     }
-/*}*/
-/*@include Tablet {
+}
+@include Tablet {
     .footer {
         &__container {
             width: 100%;
@@ -302,8 +302,8 @@
             right: 30%;
         }
     }
-}*/
-/*@include Phone {
+}
+@include Phone {
     .footer {
         &__container {
             padding:0 0 vmin(67) 0;
@@ -379,4 +379,4 @@
             }
         }
     }
-}*/
+}

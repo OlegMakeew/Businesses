@@ -1,8 +1,7 @@
 .about {
     text-align: center;
-    padding-top: vw(75);
-    .row {
-        flex-wrap: wrap;
+    &__content {
+        padding-top: vw(75);
     }
     &__item {
         @include flex();
