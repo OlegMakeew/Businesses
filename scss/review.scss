@@ -6,14 +6,11 @@
 @import './helpers/_media';
 
 //components
-@import './components/header';
+@import './components/reviewHeader';
 @import './components/footer';
 
 //sectoins
-@import './sections/hero';
-@import './sections/about';
-@import './sections/reviews';
-@import './sections/form';
+
 
 body {
     background: $body-bg;
