@@ -1,4 +1,32 @@
 .header {
+    &__review {
+        color: $color-GrayBlue60;
+        background-color: $bg-white;
+        svg {
+            path {
+                fill: $color-GrayBlue60
+            }
+        }
+        .header__categories {
+            .burger {
+                span {
+                    background-color: $color-GrayBlue60;
+                }
+            }
+        } 
+        .header__nav {
+            &-link {
+                color: $color-GrayBlue70;
+            }
+        }
+        .search {
+            input {
+                &::placeholder {
+                    color: $color-GrayBlue70;
+                }
+            }
+        } 
+    }
     padding: vw(30) 0;
     position: absolute;
     top: 0;
