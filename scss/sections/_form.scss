@@ -40,6 +40,8 @@
         }
         &-form {
             input {
+                box-sizing: border-box;
+                padding-left: vw(65);
                 width: vw(250);
                 height: vw(50);
                 border: vw(2) solid $border-color;
@@ -50,6 +52,16 @@
                     color: $color-GrayBlue70;
                 }
             }
+        }
+        &-search {
+            background-image: url("../img/form-svg/search-grayblue.svg");
+            background-repeat: no-repeat;
+            background-position: vw(26) 50%;
+        }
+        &-compass {
+            background-image: url("../img/form-svg/compass-grayblue.svg");
+            background-repeat: no-repeat;
+            background-position: vw(26) 50%;
         }
     }
 }
