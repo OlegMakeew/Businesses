@@ -8,12 +8,14 @@
 //components
 @import './components/header';
 @import './components/footer';
+@import './components/sidebar';
 
 //sectoins
 @import './sections/hero';
 @import './sections/about';
 @import './sections/reviews';
 @import './sections/form';
+@import './sections/profile';
 
 body {
     background: $body-bg;
@@ -33,6 +35,9 @@ img {
     padding-right: vw(55);
     box-sizing: border-box;
     border-right: vw(2) $border-color solid;
+    &-review {
+        background-color: $bg-white;
+    }
 }
 .title {
     @include font(600, vw(30), vw(60));
