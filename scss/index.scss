@@ -15,13 +15,13 @@
 @import './sections/about';
 @import './sections/reviews';
 @import './sections/form';
-@import './sections/profile';
+@import './sections/location';
 
 body {
     background: $body-bg;
 }
 
-body, h3, h6, h5, ul, div, span, p {
+body, h3, h4, h5, h6, ul, div, span, p {
     padding: 0;
     margin: 0;
 }
@@ -36,7 +36,7 @@ img {
     box-sizing: border-box;
     border-right: vw(2) $border-color solid;
     &-review {
-        background-color: $bg-white;
+        padding: vw(30) vw(55) vw(30) 0 ; 
     }
 }
 .title {
@@ -63,6 +63,13 @@ img {
 .col-3 {
     width: 25%;
 }
+.col-5 {
+    width: 41.6%;
+}
+.col-7 {
+    width: 55.3%;
+}
+
 .grid-container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
