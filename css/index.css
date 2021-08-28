@@ -654,11 +654,14 @@
 }
 
 .footer__form input {
-  background: #E4E7F0;
+  background-color: #E4E7F0;
   border: 2px solid #EDEFF2;
   border-radius: 30px;
   width: 10vw;
   height: 3.125vw;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding-left: 3.625vw;
 }
 
 .footer__form input::-webkit-input-placeholder {
@@ -703,6 +706,18 @@
 
 .footer__form-item:last-child {
   margin-bottom: 0;
+}
+
+.footer__form-compass {
+  background-image: url("../img/form-svg/compass-grayblue.svg");
+  background-repeat: no-repeat;
+  background-position: 1.625vw 50%;
+}
+
+.footer__form-cart {
+  background-image: url("../img/form-svg/cart-grayblue.svg");
+  background-repeat: no-repeat;
+  background-position: 1.625vw 50%;
 }
 
 .footer__social-info {
@@ -808,405 +823,199 @@
   color: #6B7A99;
 }
 
-@media screen and (max-width: 1200px) {
-  .footer__container {
-    width: 80%;
-    padding: 0 4.58333vmin 5.58333vmin 8.33333vmin;
-    border: 0.16667vmin #EDEFF2 solid;
-  }
-  .footer__content {
-    padding-top: 4.58333vmin;
-  }
-  .footer__list-item {
-    margin-bottom: 1.25vmin;
-  }
-  .footer__list-link {
-    font-family: 'SF Pro Display';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 1.41667vmin;
-    line-height: 1.66667vmin;
-  }
-  .footer__form input {
-    width: 13.33333vmin;
-    height: 4.16667vmin;
-  }
-  .footer__form input::-webkit-input-placeholder {
-    font-family: 'SF Pro Display';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 1.41667vmin;
-    line-height: 1.66667vmin;
-  }
-  .footer__form input:-ms-input-placeholder {
-    font-family: 'SF Pro Display';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 1.41667vmin;
-    line-height: 1.66667vmin;
-  }
-  .footer__form input::-ms-input-placeholder {
-    font-family: 'SF Pro Display';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 1.41667vmin;
-    line-height: 1.66667vmin;
-  }
-  .footer__form input::placeholder {
-    font-family: 'SF Pro Display';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 1.41667vmin;
-    line-height: 1.66667vmin;
-  }
-  .footer__form-item {
-    margin-bottom: 1.66667vmin;
-  }
-  .footer__social-info {
-    font-family: 'SF Pro Display';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 1.41667vmin;
-    line-height: 1.66667vmin;
-    margin-bottom: 2.91667vmin;
-  }
-  .footer__social-networks img {
-    width: 1.66667vmin;
-    height: 1.66667vmin;
-    margin-right: 1.66667vmin;
-  }
-  .footer__button button {
-    width: 5vmin;
-    height: 5vmin;
-    margin-right: 1.66667vmin;
-  }
-  .footer__button button svg {
-    width: 1.66667vmin;
-    height: 1.66667vmin;
-  }
-  .footer__policy {
-    width: 80%;
-    padding: 2.91667vmin 4.58333vmin 2.91667vmin 8.33333vmin;
-    border-right: 0.16667vmin #EDEFF2 solid;
-  }
-  .footer__policy-title {
-    font-family: 'SF Pro Display';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 1.5vmin;
-    line-height: 2.5vmin;
-  }
-  .footer__policy-list li {
-    margin-right: 2.5vmin;
-  }
-  .footer__policy-list li a {
-    font-family: 'SF Pro Display';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 1.5vmin;
-    line-height: 2.5vmin;
-  }
+.sidebar {
+  position: absolute;
+  top: 0;
+  right: 0;
 }
 
-@media screen and (max-width: 992px) {
-  .footer__container {
-    width: 100%;
-    padding: 0 5.54435vmin 6.75403vmin 10.08065vmin;
-    border: 0.20161vmin #EDEFF2 solid;
-  }
-  .footer__content {
-    padding-top: 5.54435vmin;
-  }
-  .footer__list-item {
-    margin-bottom: 1.5121vmin;
-  }
-  .footer__list-link {
-    font-family: 'SF Pro Display';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 1.71371vmin;
-    line-height: 2.01613vmin;
-  }
-  .footer__form input {
-    width: 16.12903vmin;
-    height: 5.04032vmin;
-  }
-  .footer__form input::-webkit-input-placeholder {
-    font-family: 'SF Pro Display';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 1.71371vmin;
-    line-height: 2.01613vmin;
-  }
-  .footer__form input:-ms-input-placeholder {
-    font-family: 'SF Pro Display';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 1.71371vmin;
-    line-height: 2.01613vmin;
-  }
-  .footer__form input::-ms-input-placeholder {
-    font-family: 'SF Pro Display';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 1.71371vmin;
-    line-height: 2.01613vmin;
-  }
-  .footer__form input::placeholder {
-    font-family: 'SF Pro Display';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 1.71371vmin;
-    line-height: 2.01613vmin;
-  }
-  .footer__form-item {
-    margin-bottom: 2.01613vmin;
-  }
-  .footer__social-info {
-    font-family: 'SF Pro Display';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 1.71371vmin;
-    line-height: 2.01613vmin;
-    margin-bottom: 3.52823vmin;
-  }
-  .footer__social-networks img {
-    width: 2.01613vmin;
-    height: 2.01613vmin;
-    margin-right: 2.01613vmin;
-  }
-  .footer__button button {
-    width: 6.04839vmin;
-    height: 6.04839vmin;
-    margin-right: 2.01613vmin;
-  }
-  .footer__button button svg {
-    width: 2.01613vmin;
-    height: 2.01613vmin;
-  }
-  .footer__policy {
-    width: 100%;
-    padding: 3.52823vmin 5.54435vmin 3.52823vmin 10.08065vmin;
-    border-right: 0.20161vmin #EDEFF2 solid;
-  }
-  .footer__policy-title {
-    font-family: 'SF Pro Display';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 1.81452vmin;
-    line-height: 3.02419vmin;
-  }
-  .footer__policy-list li {
-    margin-right: 3.02419vmin;
-  }
-  .footer__policy-list li a {
-    font-family: 'SF Pro Display';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 1.81452vmin;
-    line-height: 3.02419vmin;
-  }
+.sidebar button {
+  border: none;
+  background-color: #E4E7F0;
 }
 
-@media screen and (max-width: 768px) {
-  .footer__container {
-    width: 100%;
-  }
-  .footer__list-link {
-    font-family: 'SF Pro Display';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 2.21354vmin;
-    line-height: 2.60417vmin;
-  }
-  .footer__content {
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
-  }
-  .footer__policy {
-    width: 100%;
-  }
-  .footer__policy-title {
-    font-family: 'SF Pro Display';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 2.34375vmin;
-    line-height: 3.90625vmin;
-  }
-  .footer__policy-list li a {
-    font-family: 'SF Pro Display';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 2.34375vmin;
-    line-height: 3.90625vmin;
-  }
-  .footer__form {
-    margin-top: 0;
-  }
-  .footer__form input::-webkit-input-placeholder {
-    font-family: 'SF Pro Display';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 2.21354vmin;
-    line-height: 2.60417vmin;
-  }
-  .footer__form input:-ms-input-placeholder {
-    font-family: 'SF Pro Display';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 2.21354vmin;
-    line-height: 2.60417vmin;
-  }
-  .footer__form input::-ms-input-placeholder {
-    font-family: 'SF Pro Display';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 2.21354vmin;
-    line-height: 2.60417vmin;
-  }
-  .footer__form input::placeholder {
-    font-family: 'SF Pro Display';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 2.21354vmin;
-    line-height: 2.60417vmin;
-  }
-  .footer__social {
-    margin-top: 6.51042vmin;
-  }
-  .footer__social-info {
-    font-family: 'SF Pro Display';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 2.21354vmin;
-    line-height: 2.60417vmin;
-  }
-  .footer__social-networks img {
-    width: 2.60417vmin;
-    height: 2.60417vmin;
-    margin-right: 2.01613vmin;
-  }
-  .footer__button {
-    bottom: 15%;
-    right: 30%;
-  }
+.sidebar__container {
+  text-align: center;
+  width: 24.375vw;
+  padding: 2.6875vw 0.9375vw 0 1.875vw;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
-@media screen and (max-width: 480px) {
-  .footer__container {
-    padding: 0 0 13.95833vmin 0;
-    border: 0.41667vmin #EDEFF2 solid;
-  }
-  .footer__content {
-    padding-top: 11.45833vmin;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-  }
-  .footer__list-item {
-    margin: 0 8.33333vmin 3.125vmin 0;
-  }
-  .footer__list-link {
-    font-family: 'SF Pro Display';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 3.54167vmin;
-    line-height: 4.16667vmin;
-  }
-  .footer__form {
-    margin: 7.29167vmin 16.66667vmin 0 0;
-  }
-  .footer__form input {
-    width: 33.33333vmin;
-    height: 10.41667vmin;
-  }
-  .footer__form input::-webkit-input-placeholder {
-    font-family: 'SF Pro Display';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 3.54167vmin;
-    line-height: 4.16667vmin;
-  }
-  .footer__form input:-ms-input-placeholder {
-    font-family: 'SF Pro Display';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 3.54167vmin;
-    line-height: 4.16667vmin;
-  }
-  .footer__form input::-ms-input-placeholder {
-    font-family: 'SF Pro Display';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 3.54167vmin;
-    line-height: 4.16667vmin;
-  }
-  .footer__form input::placeholder {
-    font-family: 'SF Pro Display';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 3.54167vmin;
-    line-height: 4.16667vmin;
-  }
-  .footer__form-item {
-    margin-bottom: 4.16667vmin;
-  }
-  .footer__social-info {
-    font-family: 'SF Pro Display';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 3.54167vmin;
-    line-height: 4.16667vmin;
-    margin-bottom: 7.29167vmin;
-  }
-  .footer__social-networks img {
-    width: 4.16667vmin;
-    height: 4.16667vmin;
-    margin-right: 4.16667vmin;
-  }
-  .footer__button {
-    bottom: 5%;
-    right: 5%;
-  }
-  .footer__button button {
-    width: 12.5vmin;
-    height: 12.5vmin;
-    margin-right: 4.16667vmin;
-  }
-  .footer__button button svg {
-    width: 4.16667vmin;
-    height: 4.16667vmin;
-  }
-  .footer__policy {
-    padding: 7.29167vmin 0;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    border-right: 0.41667vmin #EDEFF2 solid;
-  }
-  .footer__policy-title {
-    font-family: 'SF Pro Display';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 3.75vmin;
-    line-height: 6.25vmin;
-    padding-bottom: 4.16667vmin;
-  }
-  .footer__policy-list li {
-    margin-right: 6.25vmin;
-  }
-  .footer__policy-list li a {
-    font-family: 'SF Pro Display';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 3.75vmin;
-    line-height: 6.25vmin;
-  }
+.sidebar__item {
+  padding-top: 2.5vw;
+}
+
+.sidebar__item:first-child {
+  padding-top: 0;
+}
+
+.sidebar__item-header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 1.5625vw;
+}
+
+.sidebar__item-title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.sidebar__item-title p {
+  margin-left: 1.5625vw;
+  font-family: 'SF Pro Display';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 0.8125vw;
+  line-height: 1.5625vw;
+  color: #7D8FB3;
+}
+
+.sidebar__item-event {
+  margin: 0 0.9375vw;
+  vertical-align: middle;
+  background-image: url("../img/sidebar-img/event.png");
+  background-repeat: no-repeat;
+  height: 41.875vw;
+  border-radius: 0.625vw;
+}
+
+.sidebar__list {
+  list-style-type: none;
+  padding-bottom: 1.5625vw;
+  border-bottom: 0.125vw #EDEFF2 solid;
+}
+
+.sidebar__list-link {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 3.125vw;
+  font-family: 'SF Pro Display';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 0.8125vw;
+  line-height: 1.5625vw;
+  color: #4D5E80;
+  text-decoration: none;
+  border-radius: 0.3125vw;
+  padding: 0 1.25vw;
+}
+
+.sidebar__list-link:hover {
+  -webkit-box-shadow: 0px 10px 30px rgba(255, 102, 51, 0.2);
+          box-shadow: 0px 10px 30px rgba(255, 102, 51, 0.2);
+  background-color: #FF6633;
+  color: #FFFFFF;
+}
+
+.sidebar__list-link:hover button {
+  background-color: #FF6633;
+}
+
+.sidebar__list-link:hover svg path {
+  fill: #FFFFFF;
+}
+
+.sidebar__list-category {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.sidebar__list-category svg {
+  margin-right: 1.5vw;
+}
+
+.sidebar__list-more {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.sidebar__list-more span {
+  margin-right: 1.6875vw;
+}
+
+.sidebar__event-header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 2.5vw 2.5vw 4.3125vw 2.5vw;
+}
+
+.sidebar__event-more {
+  font-family: 'SF Pro Display';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 0.75vw;
+  line-height: 1.25vw;
+  color: #FFFFFF;
+  background: #8833FF;
+  border-radius: 1.875vw;
+  padding: 0.3125vw 0.9375vw;
+}
+
+.sidebar__event-title {
+  color: #FFFFFF;
+  font-family: 'SF Pro Display';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1.5vw;
+  line-height: 1.875vw;
+  padding: 3.75vw;
+}
+
+.sidebar__event-send {
+  font-family: 'SF Pro Display';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 0.625vw;
+  line-height: 1.25vw;
+  color: #FFFFFF;
+  background-color: #FF6633;
+  -webkit-box-shadow: 0px 30px 60px rgba(255, 102, 51, 0.5);
+          box-shadow: 0px 30px 60px rgba(255, 102, 51, 0.5);
+  border-radius: 1.875vw;
+  padding: 0.9375vw 2.5vw;
 }
 
 .hero {
@@ -1264,6 +1073,9 @@
   background-color: rgba(13, 17, 26, 0.5);
   border: none;
   color: white;
+  padding-left: 4.0625vw;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 .hero__form-place::-webkit-input-placeholder, .hero__form-city::-webkit-input-placeholder {
@@ -1304,6 +1116,15 @@
 
 .hero__form-city {
   width: 15.9375vw;
+  background-image: url("../img/form-svg/compass-white.svg");
+  background-repeat: no-repeat;
+  background-position: 1.625vw 50%;
+}
+
+.hero__form-place {
+  background-image: url("../img/form-svg/search-white.svg");
+  background-repeat: no-repeat;
+  background-position: 1.625vw 50%;
 }
 
 .hero__form-button {
@@ -1709,6 +1530,7 @@
 }
 
 .about {
+  position: relative;
   text-align: center;
 }
 
@@ -2004,6 +1826,9 @@
 }
 
 .form__info-form input {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding-left: 4.0625vw;
   width: 15.625vw;
   height: 3.125vw;
   border: 0.125vw solid #EDEFF2;
@@ -2047,6 +1872,18 @@
   color: #7D8FB3;
 }
 
+.form__info-search {
+  background-image: url("../img/form-svg/search-grayblue.svg");
+  background-repeat: no-repeat;
+  background-position: 1.625vw 50%;
+}
+
+.form__info-compass {
+  background-image: url("../img/form-svg/compass-grayblue.svg");
+  background-repeat: no-repeat;
+  background-position: 1.625vw 50%;
+}
+
 body {
   background: #E4E7F0;
 }
@@ -2067,6 +1904,10 @@ img {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   border-right: 0.125vw #EDEFF2 solid;
+}
+
+.container-review {
+  background-color: #FFFFFF;
 }
 
 .title {

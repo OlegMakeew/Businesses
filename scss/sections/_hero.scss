@@ -30,6 +30,8 @@
             background-color: $color-GrayBlue10;
             border: none;
             color: white;
+            padding-left: vw(65);
+            box-sizing: border-box;
             &::placeholder {
                 color: white;
                 @include font(700, vw(12), vw(20));
@@ -37,6 +39,14 @@
         }
         &-city {
             width: vw(255);
+            background-image: url("../img/form-svg/compass-white.svg");
+            background-repeat: no-repeat;
+            background-position: vw(26) 50%;
+        }
+        &-place {
+            background-image: url("../img/form-svg/search-white.svg");
+            background-repeat: no-repeat;
+            background-position: vw(26) 50%;
         }
         &-button {
             @include font(700, vw(12), vw(20));
