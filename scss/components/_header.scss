@@ -2,6 +2,7 @@
     &__review {
         color: $color-GrayBlue60;
         background-color: $bg-white;
+        position: relative;
         svg {
             path {
                 fill: $color-GrayBlue60

@@ -1,0 +1,82 @@
+.location {
+    position: relative;
+    &__content {
+        background-color: $bg-white;
+        box-shadow: 0px 2px 5px rgba(54, 61, 77, 0.03);
+        border-radius: vw(10);
+    }
+    &__item {
+        padding: vw(40) vw(30) vw(30) vw(30);
+    }
+    &__header {
+        display: flex;
+        align-items: center;
+        margin-bottom: vw(27);
+        &-title {
+            @include font(700, vw(18), vw(30));
+            color: $color-GrayBlue50;
+            margin-right: vw(32);
+        }
+        &-claimed {
+            @include font(700, vw(12), vw(20));
+            @include flex();
+            color: $color-GrayBlue70;
+            svg {
+                margin-right: vw(16);
+            }
+        }
+    }
+    &__rating {
+        display: flex;
+        align-items: center;
+        margin-bottom: vw(34);
+        &-star {
+            @include font(700, vw(13), vw(25));
+            @include flex();
+            color: $color-GrayBlue70;
+            svg {
+                margin-right: vw(8);
+                &:last-child {
+                    margin-right: vw(20);
+                }
+            }
+        }
+        &-reviews {
+            @include font(700, vw(12), vw(20));
+            @include flex();
+            color: $color-GrayBlue70;
+            margin-left: vw(15);
+        }
+    }
+    &__list {
+        @include font(700, vw(12), vw(20));
+        color: $color-GrayBlue70;
+        &-half {
+            width: vw(160);
+            display: flex;
+            align-items: center;
+            margin-right: vw(25);
+            &:last-child {
+                margin-right: 0;
+            }
+        }
+        &-img {
+            width: vw(20);
+            height: vw(20);
+            margin-right: vw(27);
+        }
+        &-item {
+            display: flex;
+            align-items: center;
+            margin-bottom: vw(25);
+            img {
+                width: vw(20);
+                height: vw(20);
+            }
+        }
+    }
+    .map {
+        width: vw(445);
+        height: vw(355);
+    }
+}
