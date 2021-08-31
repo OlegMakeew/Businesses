@@ -43,6 +43,7 @@
 .header__review {
   color: #6B7A99;
   background-color: #FFFFFF;
+  position: relative;
 }
 
 .header__review svg path {
@@ -823,6 +824,201 @@
   color: #6B7A99;
 }
 
+.sidebar {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.sidebar button {
+  border: none;
+  background-color: #E4E7F0;
+}
+
+.sidebar__container {
+  text-align: center;
+  width: 24.375vw;
+  padding: 2.6875vw 0.9375vw 0 1.875vw;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.sidebar__item {
+  padding-top: 2.5vw;
+}
+
+.sidebar__item:first-child {
+  padding-top: 0;
+}
+
+.sidebar__item-header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 1.5625vw;
+}
+
+.sidebar__item-title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.sidebar__item-title p {
+  margin-left: 1.5625vw;
+  font-family: 'SF Pro Display';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 0.8125vw;
+  line-height: 1.5625vw;
+  color: #7D8FB3;
+}
+
+.sidebar__item-event {
+  margin: 0 0.9375vw;
+  vertical-align: middle;
+  background-image: url("../img/sidebar-img/event.png");
+  background-repeat: no-repeat;
+  height: 41.875vw;
+  border-radius: 0.625vw;
+}
+
+.sidebar__list {
+  list-style-type: none;
+  padding-bottom: 1.5625vw;
+  border-bottom: 0.125vw #EDEFF2 solid;
+}
+
+.sidebar__list-link {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 3.125vw;
+  font-family: 'SF Pro Display';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 0.8125vw;
+  line-height: 1.5625vw;
+  color: #4D5E80;
+  text-decoration: none;
+  border-radius: 0.3125vw;
+  padding: 0 1.25vw;
+}
+
+.sidebar__list-link:hover {
+  -webkit-box-shadow: 0px 10px 30px rgba(255, 102, 51, 0.2);
+          box-shadow: 0px 10px 30px rgba(255, 102, 51, 0.2);
+  background-color: #FF6633;
+  color: #FFFFFF;
+}
+
+.sidebar__list-link:hover button {
+  background-color: #FF6633;
+}
+
+.sidebar__list-link:hover svg path {
+  fill: #FFFFFF;
+}
+
+.sidebar__list-category {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.sidebar__list-category svg {
+  margin-right: 1.5vw;
+}
+
+.sidebar__list-more {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.sidebar__list-more span {
+  margin-right: 1.6875vw;
+}
+
+.sidebar__event-header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 2.5vw 2.5vw 4.3125vw 2.5vw;
+}
+
+.sidebar__event-more {
+  font-family: 'SF Pro Display';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 0.75vw;
+  line-height: 1.25vw;
+  color: #FFFFFF;
+  background: #8833FF;
+  border-radius: 1.875vw;
+  padding: 0.3125vw 0.9375vw;
+}
+
+.sidebar__event-title {
+  color: #FFFFFF;
+  font-family: 'SF Pro Display';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1.5vw;
+  line-height: 1.875vw;
+  padding: 3.75vw;
+}
+
+.sidebar__event-send {
+  font-family: 'SF Pro Display';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 0.625vw;
+  line-height: 1.25vw;
+  color: #FFFFFF;
+  background-color: #FF6633;
+  -webkit-box-shadow: 0px 30px 60px rgba(255, 102, 51, 0.5);
+          box-shadow: 0px 30px 60px rgba(255, 102, 51, 0.5);
+  border-radius: 1.875vw;
+  padding: 0.9375vw 2.5vw;
+}
+
 .hero {
   background: url("../img/herobg.png") no-repeat center;
   background-size: cover;
@@ -1335,6 +1531,7 @@
 }
 
 .about {
+  position: relative;
   text-align: center;
 }
 
@@ -1688,11 +1885,173 @@
   background-position: 1.625vw 50%;
 }
 
+.location {
+  position: relative;
+}
+
+.location__content {
+  background-color: #FFFFFF;
+  -webkit-box-shadow: 0px 2px 5px rgba(54, 61, 77, 0.03);
+          box-shadow: 0px 2px 5px rgba(54, 61, 77, 0.03);
+  border-radius: 0.625vw;
+}
+
+.location__item {
+  padding: 2.5vw 1.875vw 1.875vw 1.875vw;
+}
+
+.location__header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 1.6875vw;
+}
+
+.location__header-title {
+  font-family: 'SF Pro Display';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.125vw;
+  line-height: 1.875vw;
+  color: #4D5E80;
+  margin-right: 2vw;
+}
+
+.location__header-claimed {
+  font-family: 'SF Pro Display';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 0.75vw;
+  line-height: 1.25vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #7D8FB3;
+}
+
+.location__header-claimed svg {
+  margin-right: 1vw;
+}
+
+.location__rating {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 2.125vw;
+}
+
+.location__rating-star {
+  font-family: 'SF Pro Display';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 0.8125vw;
+  line-height: 1.5625vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #7D8FB3;
+}
+
+.location__rating-star svg {
+  margin-right: 0.5vw;
+}
+
+.location__rating-star svg:last-child {
+  margin-right: 1.25vw;
+}
+
+.location__rating-reviews {
+  font-family: 'SF Pro Display';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 0.75vw;
+  line-height: 1.25vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #7D8FB3;
+  margin-left: 0.9375vw;
+}
+
+.location__list {
+  font-family: 'SF Pro Display';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 0.75vw;
+  line-height: 1.25vw;
+  color: #7D8FB3;
+}
+
+.location__list-half {
+  width: 10vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-right: 1.5625vw;
+}
+
+.location__list-half:last-child {
+  margin-right: 0;
+}
+
+.location__list-img {
+  width: 1.25vw;
+  height: 1.25vw;
+  margin-right: 1.6875vw;
+}
+
+.location__list-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 1.5625vw;
+}
+
+.location__list-item img {
+  width: 1.25vw;
+  height: 1.25vw;
+}
+
+.location .map {
+  width: 27.8125vw;
+  height: 22.1875vw;
+}
+
 body {
   background: #E4E7F0;
 }
 
-body, h3, h6, h5, ul, div, span, p {
+body, h3, h4, h5, h6, ul, div, span, p {
   padding: 0;
   margin: 0;
 }
@@ -1708,6 +2067,10 @@ img {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   border-right: 0.125vw #EDEFF2 solid;
+}
+
+.container-review {
+  padding: 1.875vw 3.4375vw 1.875vw 0;
 }
 
 .title {
@@ -1748,6 +2111,14 @@ img {
 
 .col-3 {
   width: 25%;
+}
+
+.col-5 {
+  width: 41.6%;
+}
+
+.col-7 {
+  width: 55.3%;
 }
 
 .grid-container {
